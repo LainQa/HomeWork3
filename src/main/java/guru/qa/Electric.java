@@ -1,21 +1,25 @@
 package guru.qa;
 
 public class Electric {
-    String car;
     String model;
-    int maxSpeed;
+    int price;
+    int battery;
 
-    public void printInfo() {
-        System.out.println("Car brand: "+ car);
-        System.out.println("Machine model: "+ model);
-        System.out.println("Max speed: "+ maxSpeed);
-    }
-
-    public Electric(String car, String model, int maxSpeed ){
-        this.car = car;
+    public Electric(String model, int price, int battery) {
         this.model = model;
-        this.maxSpeed = maxSpeed;
-        printInfo();
-
+        this.price = price;
+        this.battery = battery;
     }
+
+    public void saySpecs () {
+        System.out.println("Model: "+model+ System.lineSeparator() + "Price in USD: " + price + System.lineSeparator() + "Battery capacity in kWh: "+ battery);
+    }
+    public void discount(){
+        price = price / 2;
+        battery = battery + 8;
+    }
+
+
+
 }
+
