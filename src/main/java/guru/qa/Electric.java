@@ -14,6 +14,10 @@ public class Electric {
     public void saySpecs () {
         System.out.println("Model: "+model+ System.lineSeparator() + "Price in USD: " + price + System.lineSeparator() + "Battery capacity in kWh: "+ battery);
     }
+    public void saySpecs1 () {
+        System.out.println("Price in USD: " + price + System.lineSeparator() + "Battery capacity in kWh: "+ battery);
+    }
+
     public void discount(){
         price = price / 2;
         battery = battery + 8;
