@@ -6,7 +6,6 @@ public class TeslaCars  {
         Electric modS = new Electric("S",30000,150);
         Electric mod5 = new Electric("5",15000,100);
         Electric mod3 = new Electric("3",13000,80);
-        Electric modDisc = new Electric("3",13000,80);
 
         System.out.println("Welcome to Tesla`s showroom! We have:");
         System.out.println("");
