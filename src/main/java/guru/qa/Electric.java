@@ -22,7 +22,7 @@ public class Electric {
         price = price / 2;
         battery = battery + 8;
     }
-
+    //1
 
 
 }
