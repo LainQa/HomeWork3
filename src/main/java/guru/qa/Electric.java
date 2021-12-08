@@ -23,6 +23,7 @@ public class Electric {
         battery = battery + 8;
     }
     //1
+    //2
 
 
 }
